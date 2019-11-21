@@ -10,11 +10,12 @@ In this project, I try different model to build a satisfy model for this dataset
 ### Project Statement
 
 This is a supervised learning problem because each example in training data is a pair consisting of an input image and a desired output value (cat or dog). The classifier implements a binary classification considering the goal is to tell you if it is cats or dogs in the image when you put an image into the classifier.
-Metrics
+
+### Metrics
  
-•	n: the number of images in the test set
-•	𝑦̂: the predicted probability of the image being a dog 𝑖
-•	𝑦 𝑖 : 1 if the image is a dog, 0 if cat
+•	n: the number of images in the test set  
+•	𝑦̂: the predicted probability of the image being a dog 𝑖  
+•	𝑦 𝑖 : 1 if the image is a dog, 0 if cat  
 
 ## Analysis
 ### Data Exploration
@@ -84,6 +85,21 @@ Table 1: Comparing training time and accuracy in different model results
 ## Conclusion
 
 As can be seen from the figure below, the training and test accuracy rates of each model increase with the increase of the number of training. At the same time training and verification loss continues to decline.
+
+**VGG16**
+![VGG16](./results/VGG16.png)
+
+**VGG19**
+![VGG19](./results/VGG19.png)
+
+**ResNet50**
+![ResNet50](./results/ResNet50.png)
+
+**InceptionResNetV2**
+![InceptionResNetV2](./results/InceptionResNetV2.png)
+
+**DenseNet121**
+![DenseNet121](./results/DenseNet121.png)
 
 ## Thinking and improvement
 ### Thinking
